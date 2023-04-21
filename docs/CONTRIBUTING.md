@@ -7,7 +7,7 @@ To get started with contributing to our project, please follow these steps:
 
 1. Clone the repository locally.
 2. Install the necessary dependencies by running yarn install.
-3. Create a new branch for your changes. The branch name should start with one of the following prefixes, depending on the type of changes you are making:
+3. Create a new branch based on develop branch for your changes. The branch name should start with one of the following prefixes, depending on the type of changes you are making:
     - <strong>feat/</strong> for new features
     - <strong>fix/</strong> for bug fixes
     - <strong>docs/</strong> for documentation changes
@@ -17,7 +17,7 @@ To get started with contributing to our project, please follow these steps:
     - <strong>test/</strong> for adding missing tests or correcting existing tests
 4. Make your changes and commit them using Conventional Commits.
 5. Push your changes to the main repository.
-6. Create a pull request to merge your changes into the main branch.
+6. Create a pull request to merge your changes into the develop branch.
 
 ## Conventional Commits
 We use Conventional Commits to standardize our commit messages. Please follow the guidelines below when making your commits:
