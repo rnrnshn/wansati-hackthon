@@ -11,22 +11,23 @@ export default function Navbar() {
     const year = today.getFullYear()
 
     return (
-        <footer className="bg-quaternary">
-            <div className="container mx-auto py-5">
-                <div className="flex justify-between">
+        <footer className="bg-primary">
+            <div className="container mx-auto py-16 flex justify-between text-white">
+                <div className="space-y-5">
                     <div>
-                        <h1 className="text-4xl font-sans font-bold">Wansati <span className="text-primary">Hackthon</span></h1>
+                        <h1 className="text-4xl font-sans font-bold ">Wansati Hackthon</h1>
                     </div>
-                    <div className="flex justify-center items-center gap-3 text-2xl">
-                        <BsFacebook />
-                        <BsInstagram />
-                        <BsLinkedin />
-                        <BsTwitter />
-                        <BsYoutube />
+                    <div className="space-y-2">
+                        <p>©{year} Wansati Hackthon.</p>
+                        <p>Todos os direitos reservados.</p>
                     </div>
                 </div>
-                <div className="text-center">
-                    <p>Copyright © {year} <a href="https://www.mozdevz.org/">Mozdevz Community</a>. All Rights Reserved</p>
+                <div className="flex justify-center items-center gap-3 text-2xl">
+                    <a href=""><BsFacebook /></a>
+                    <a href=""><BsInstagram /></a>
+                    <a href=""><BsLinkedin /></a>
+                    <a href=""><BsTwitter /></a>
+                    <a href=""><BsYoutube /></a>
                 </div>
             </div>
         </footer>
