@@ -13,14 +13,14 @@ export default function Navbar() {
     const year = today.getFullYear()
 
     return (
-        <footer className="bg-primary">
-            <div className="container mx-auto py-16 flex justify-between text-white">
+        <footer className="bg-primary p-5">
+            <div className="max-w-6xl mx-auto w-full py-16 flex justify-between flex-wrap gap-10 text-white">
                 <div className="space-y-5">
                     <div>
                         <h1 className="text-4xl font-sans font-bold ">Wansati Hackthon</h1>
                     </div>
                     <div className="space-y-2">
-                        <p>©{year} Wansati Hackthon.</p>
+                        <p>©{ year } Wansati Hackthon.</p>
                         <p>Todos os direitos reservados.</p>
                     </div>
                 </div>
