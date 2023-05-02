@@ -5,7 +5,6 @@ export default function Home() {
    <>
      <header>
         <NavBar/>
-        
      </header>
      <main>
       <h1>Wansati Hackthon</h1>
