@@ -1,17 +1,20 @@
-import Link from "next/link"
+import Link from "next/link";
 interface NavItemProps {
-  title: string
-  href: string
-  onClickNavItem: () => void
+  title: string;
+  href: string;
+  scrollY: number;
+  onClickNavItem: () => void;
 }
 
-export default function NavItem({ title, href, onClickNavItem }: NavItemProps) {
+const NavItem = ({ title, href, onClickNavItem }: NavItemProps) => {
   return (
-    <li className="text-base text-primary group relative">
-      <Link href={href} onClick={onClickNavItem}>
-        {title}
+    <li className={`text-base group relative ${ scrollY > 200 ? "text-white" : "text-primary" }`}>
+      <Link href={ href } onClick={ onClickNavItem }>
+        { title }
       </Link>
-      <div className="absolute w-0 group-hover:w-full h-1 bg-primary rounded transition-all"></div>
+      <div className={`absolute w-0 group-hover:w-full h-1 rounded transition-all ${ scrollY > 200 ? "bg-white" : "bg-primary" }`}></div>
     </li>
   )
 }
+
+export default NavItem;
