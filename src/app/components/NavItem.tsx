@@ -8,7 +8,7 @@ interface NavItemProps {
 
 const NavItem = ({ title, href, onClickNavItem }: NavItemProps) => {
   return (
-    <li className={`text-base group relative text-white ${ scrollY > 200 ? "md:text-white" : "md:text-primary" }`}>
+    <li className={`text-lg md:text-base relative text-white group ${ scrollY > 200 ? "md:text-white" : "md:text-primary" }`}>
       <Link href={ href } onClick={ onClickNavItem }>
         { title }
       </Link>
