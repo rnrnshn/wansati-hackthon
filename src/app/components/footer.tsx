@@ -1,16 +1,16 @@
 "use client";
 
-import { FacebookLogo, InstagramLogo, LinkedinLogo, TwitchLogo, YoutubeLogo } from "phosphor-react";
+import { 
+    FacebookLogo, 
+    InstagramLogo, 
+    LinkedinLogo, 
+    TwitchLogo, 
+    YoutubeLogo 
+} from "phosphor-react";
 
-
-
-"TODO: Add poppins font or OpenSans-Regular"
-
-
-
-export default function Navbar() {
+const Footer = () => {
     const today = new Date();
-    const year = today.getFullYear()
+    const year = today.getFullYear();
 
     return (
         <footer className="bg-primary p-5">
@@ -35,3 +35,5 @@ export default function Navbar() {
         </footer>
     )
 }
+
+export default Footer;
