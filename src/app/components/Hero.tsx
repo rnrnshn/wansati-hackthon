@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "../../../public/assets/hero-image.png";
+import HeroImage from "../../../public/assets/hero-image.svg";
 
 export default function Hero() {
   return (
@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div>
+      <div className="w-full max-w-md">
         <Image src={HeroImage} alt="wansati" />
       </div>
     </section>
