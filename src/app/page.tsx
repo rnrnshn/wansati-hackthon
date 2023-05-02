@@ -1,10 +1,16 @@
-import Footer from './components/Footer'
+import NavBar from "./components/Navbar";
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <main>
+   <>
+     <header>
+        <NavBar/>
+     </header>
+     <main>
       <h1>Wansati Hackthon</h1>
       <Footer/>
     </main>
+   </>
   )
 }
