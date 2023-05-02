@@ -1,6 +1,6 @@
-import Hero from "./components/Hero";
-
 import NavBar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Partners from './components/Partners'
 import Footer from './components/Footer';
 
 export default function Home() {
@@ -11,9 +11,9 @@ export default function Home() {
       <NavBar/>
     </header>
     <main>
-      <h1>Wansati Hackthon</h1>
-      <Footer/>
+      <Partners/>
     </main>
+    <Footer/>
    </>
   )
 }
