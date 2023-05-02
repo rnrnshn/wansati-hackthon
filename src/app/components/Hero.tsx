@@ -3,7 +3,7 @@ import HeroImage from "../../../public/assets/hero-image.svg";
 
 const Hero = () => {
   return (
-    <section className="p-5 mt-12 pb-24 flex justify-between items-center max-w-6xl mx-auto gap-10 max-md:mt-14  max-md:flex-col max-md:px-10">
+    <section className="p-5 py-24 flex justify-between items-center max-w-6xl mx-auto gap-10 max-md:mt-14  max-md:flex-col max-md:px-10">
       <div className="max-w-lg order-2 md:order-1">
         <h1 className="text-6xl text-gray-headline font-bold pb-6 max-md:text-3xl max-md:text-center max-md:mb-6 max-md:mt-10">
           Wansati Hackathon
