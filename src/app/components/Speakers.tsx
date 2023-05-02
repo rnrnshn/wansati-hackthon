@@ -25,7 +25,11 @@ const Speakers = () => {
 
 
     return (
-        <section className="flex justify-center items-center">
+        <section className="flex flex-col justify-center items-center space-y-16">
+            <div className="text-center w-[497px] space-y-4">
+                <h1 className="text-sm text-primary">ORADORES</h1>
+                <p className="text-4xl font-bold">Os oradores responsáveis por dirigir esse evento</p>
+            </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <Speaker src={"https://uploaddeimagens.com.br/images/004/451/502/full/Ellipse_1.png?1683062539"} alt={"wansate"} name={"Leire Raongou"} description={"CEO @MozDevz"} />
                 <Speaker src={"https://uploaddeimagens.com.br/images/004/451/502/full/Ellipse_1.png?1683062539"} alt={"wansate"} name={"Leire Raongou"} description={"CEO @MozDevz"} />
