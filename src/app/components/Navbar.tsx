@@ -55,7 +55,7 @@ const NavBar = () => {
           : "text-primary bg-green-light"
       }`}
     >
-      <div className="container justify-between items-center  mx-auto md:items-center md:flex ">
+      <div className="max-w-6xl justify-between items-center mx-auto md:items-center md:flex px-5">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
             <Image
