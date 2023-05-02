@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#D90452",
-        secondary: "#F24BA7",
-        tertiary: "#F263C0",
-        quaternary: "#4CBDD0"
+        "primary": "#D90452",
+        "primary-hover": "#D90452",
+        "secondary": "#F24BA7",
+        "tertiary": "#F263C0",
+        "quaternary": "#4CBDD0",
+        "gray-headline":"#061800",
+        "gray-paragraph": "#384633",
+        "beige": "#FFFAF1",
+        "green-light": "#DCE9E2",
+        "green-light-02": "#F7F9F9"
+
       }
     },
   },
