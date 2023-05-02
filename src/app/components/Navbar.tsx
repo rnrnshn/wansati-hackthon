@@ -54,7 +54,7 @@ export default function NavBar() {
           <Link href="/">
             <Image
               src={scrollY > 200 || navbar ? logoWhite : logo}
-              width={130}
+              width={200}
               alt="Wansati Hackathon"
             />
           </Link>
