@@ -1,4 +1,4 @@
-import { Partners } from './components/partners'
+import Partners from './components/partners'
 
 export default function Home() {
   return (
