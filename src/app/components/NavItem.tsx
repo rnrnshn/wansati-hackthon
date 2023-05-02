@@ -6,7 +6,7 @@ interface NavItemProps {
   onClickNavItem: () => void;
 }
 
-const NavItem = ({ title, href, onClickNavItem }: NavItemProps) => {
+const NavItem = ({ title, href, onClickNavItem, scrollY }: NavItemProps) => {
   return (
     <li className={`text-lg md:text-base relative text-white group ${ scrollY > 200 ? "md:text-white" : "md:text-primary" }`}>
       <Link href={ href } onClick={ onClickNavItem }>
