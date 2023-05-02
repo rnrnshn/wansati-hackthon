@@ -1,29 +1,36 @@
-/* eslint-disable @next/next/no-img-element */
-import Image from "next/image"
+import Image from "next/image";
 
-export const Partners = () => {
-    return (
-        <section>
-            <div className="container mx-auto flex flex-col space-y-10 my-10">
-                <h1 className="text-4xl font-sans font-bold text-center">Parceiros</h1>
-                <div className="flex flex-col lg:flex-row lg:flex-nowrap gap-y-20 lg:gap-10 items-center justify-evenly">
-                    <div className="">
-                        <img src="./partners/oxfam.png" alt="Oxfam" />
-                    </div>
-                    <div>
-                        <img className="max-w-xs lg:w-28" src="./partners/UNDP.png" alt="UNDP" />
-                    </div>
-                    <div>
-                        <img className="w-60" src="./partners/forum.png" alt="forum-mulher" />
-                    </div>
-                    <div>
-                        <img className="max-w-xs" src="./partners/Kabum_logo.png" alt="Kabum" />
-                    </div>
-                    <div>
-                        <img className="max-w-xs lg:w-52" src="./partners/mf.png" alt="Maputo Frontenders" />
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+import forumMulherLogo from "../../../public/partners/forum.png";
+import oXFamLogo from "../../../public/partners/oxfam.png";
+import undpLogo from "../../../public/partners/UNDP.png";
+import kabumDigitalLogo from "../../../public/partners/kabum.png";
+import maputoFrontendersLogo from "../../../public/partners/mf.png";
+
+const partnersImages = [
+	forumMulherLogo,
+	oXFamLogo,
+	undpLogo,
+	kabumDigitalLogo,
+	maputoFrontendersLogo
+]
+
+const Partners = () => {
+	return (
+		<section>
+			<div className="max-w-6xl mx-auto flex flex-col space-y-10 my-10 p-5">
+				<h2 className="text-4xl font-sans font-bold text-center">Parceiros</h2>
+				<div className="flex flex-col lg:flex-row lg:flex-nowrap gap-y-20 lg:gap-10 items-center justify-evenly">
+						{ partnersImages.map((partner, index) => {
+							return (
+								<div className="max-w-xs w-full" key={index}>
+									<Image className="w-full" src={partner} alt={`partner ${index + 1}`} />
+								</div>
+							)
+						}) }
+				</div>
+			</div>
+		</section>
+	)
 } 
+
+export default Partners;
