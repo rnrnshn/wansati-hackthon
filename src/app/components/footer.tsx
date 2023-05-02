@@ -1,4 +1,6 @@
-import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
+"use client";
+
+import { FacebookLogo, InstagramLogo, LinkedinLogo, TwitchLogo, YoutubeLogo } from "phosphor-react";
 
 
 
@@ -23,11 +25,11 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex justify-center items-center gap-3 text-2xl">
-                    <a href=""><BsFacebook /></a>
-                    <a href=""><BsInstagram /></a>
-                    <a href=""><BsLinkedin /></a>
-                    <a href=""><BsTwitter /></a>
-                    <a href=""><BsYoutube /></a>
+                    <a href=""><FacebookLogo /></a>
+                    <a href=""><InstagramLogo /></a>
+                    <a href=""><LinkedinLogo /></a>
+                    <a href=""><TwitchLogo /></a>
+                    <a href=""><YoutubeLogo /></a>
                 </div>
             </div>
         </footer>
