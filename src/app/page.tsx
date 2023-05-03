@@ -1,13 +1,19 @@
+"use client"
+
 import Image from "next/image";
 
 import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Speaker from './components/Speaker'
-import { Speakers } from "@/app/data"
+import { Speakers, agenda } from "@/app/data"
 import Partners from './components/Partners'
 import Footer from './components/Footer';
 
+import CustomizableCardType from "@/app/components/CustomizableCard";
+
 import aboutImg from "../../public/assets/about.png"
+
+import { CalendarCheck } from "phosphor-react";
 
 export default function Home() {
   return (
@@ -37,6 +43,26 @@ export default function Home() {
             alt="Uma logo de que tem chavetas que indicam que se trata de programação" 
             className="w-full"
           />
+        </div>
+      </section>
+
+      <section className="p-5 max-w-6xl mx-auto py-16">
+        <div className="text-center max-w-md w-full mx-auto">
+          <h2 className="text-4xl font-bold">Agenda</h2>
+        </div>
+
+        <div className="mt-16 flex flex-wrap gap-8 justify-center md:justify-between">
+          { agenda.map((item, index) => {
+            return (
+              <CustomizableCardType key={index} title={item.title} description={item.description}>
+                <CalendarCheck className="text-secondary" size={48} weight="bold" />
+                <div className="flex flex-col gap-1">
+                  <span className="font-bold">{ item.date }</span>
+                  <span>{ item.time }</span>
+                </div>
+              </CustomizableCardType>
+            )
+          }) }
         </div>
       </section>
 
