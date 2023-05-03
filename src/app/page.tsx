@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import CustomizableCardType from "@/app/components/CustomizableCard";
 
 import aboutImg from "../../public/assets/about.png"
+import mozDevzImg from "../../public/assets/MozDevzLogo.png"
 
 import { CalendarCheck, CheckCircle } from "phosphor-react";
 
@@ -94,6 +95,16 @@ export default function Home() {
               <Speaker key={index} {...SpeakerData} />
             )
           }) }
+        </div>
+      </section>
+
+      <section className="p-5 max-w-6xl mx-auto py-16">
+        <div className="text-center max-w-md w-full mx-auto">
+          <h2 className="text-4xl font-bold">Organizadores</h2>
+        </div>
+
+        <div className="max-w-sm w-full mx-auto mt-16">
+          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="w-full" />
         </div>
       </section>
       
