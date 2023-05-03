@@ -1,4 +1,5 @@
 import type { StaticImageData } from "next/image";
+import { ReactNode } from "react";
 
 // Speakers
 import IgorImg from "../../public/speakers/igor.webp";
@@ -9,6 +10,12 @@ export interface Speaker {
 	name: string,
 	role: string
 };
+
+export interface CustomizableCardType {
+  title: string,
+  description: string,
+  children?: ReactNode
+}
 
 const Speakers: Speaker[] = [
   {
@@ -48,5 +55,6 @@ const Speakers: Speaker[] = [
     role: "Presidente @MozDevz" 
   }
 ];
+
 
 export { Speakers };
