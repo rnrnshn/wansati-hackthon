@@ -100,4 +100,31 @@ const agenda: Agenda[] = [
   },
 ]
 
-export { Speakers, agenda };
+const challenges: CustomizableCardType[] = [
+  {
+    title: "Educação",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+  },
+  {
+    title: "Educação",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+  },
+  {
+    title: "Educação",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+  },
+  {
+    title: "Educação",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+  },
+  {
+    title: "Educação",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+  },
+  {
+    title: "Educação",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+  }
+]
+
+export { Speakers, agenda, challenges };
