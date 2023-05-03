@@ -17,6 +17,11 @@ export interface CustomizableCardType {
   children?: ReactNode
 }
 
+export interface Agenda extends CustomizableCardType {
+  time: string,
+  date: string
+}
+
 const Speakers: Speaker[] = [
   {
     img: IgorImg,
@@ -56,5 +61,43 @@ const Speakers: Speaker[] = [
   }
 ];
 
+const agenda: Agenda[] = [
+  {
+    title: "Abertura",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
+    date: "26/05",
+    time: "09:00h"
+  },
+  {
+    title: "Abertura",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
+    date: "26/05",
+    time: "09:00h"
+  },
+  {
+    title: "Abertura",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
+    date: "26/05",
+    time: "09:00h"
+  },
+  {
+    title: "Abertura",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
+    date: "26/05",
+    time: "09:00h"
+  },
+  {
+    title: "Abertura",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
+    date: "26/05",
+    time: "09:00h"
+  },
+  {
+    title: "Abertura",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
+    date: "26/05",
+    time: "09:00h"
+  },
+]
 
-export { Speakers };
+export { Speakers, agenda };
