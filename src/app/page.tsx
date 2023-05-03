@@ -5,7 +5,7 @@ import Image from "next/image";
 import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Speaker from './components/Speaker'
-import { Speakers, agenda } from "@/app/data"
+import { Speakers, agenda, challenges } from "@/app/data"
 import Partners from './components/Partners'
 import Footer from './components/Footer';
 
@@ -13,7 +13,7 @@ import CustomizableCardType from "@/app/components/CustomizableCard";
 
 import aboutImg from "../../public/assets/about.png"
 
-import { CalendarCheck } from "phosphor-react";
+import { CalendarCheck, CheckCircle } from "phosphor-react";
 
 export default function Home() {
   return (
@@ -43,6 +43,23 @@ export default function Home() {
             alt="Uma logo de que tem chavetas que indicam que se trata de programação" 
             className="w-full"
           />
+        </div>
+      </section>
+
+      <section className="p-5 max-w-6xl mx-auto py-16">
+        <div className="text-center max-w-md w-full mx-auto">
+          <h2 className="text-lg text-primary mb-3">DESAFIOS</h2>
+          <h3 className="text-4xl font-bold">Desafios relacionados a várias áreas</h3>
+        </div>
+
+        <div className="mt-16 flex flex-wrap gap-8 justify-center md:justify-between">
+          { challenges.map((item, index) => {
+            return (
+              <CustomizableCardType key={index} title={item.title} description={item.description}>
+                <CheckCircle className="text-tertiary" size={36} weight="fill" />
+              </CustomizableCardType>
+            )
+          }) }
         </div>
       </section>
 
