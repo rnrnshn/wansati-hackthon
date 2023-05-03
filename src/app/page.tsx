@@ -1,9 +1,17 @@
+import NavBar from "./components/Navbar";
+import Hero from "./components/Hero";
 import Speaker from './components/Speaker'
 import { Speakers } from "@/app/data"
-
+import Partners from './components/Partners'
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
+   <>
+    <header className="bg-[#DCE9E2] w-full ">
+      <Hero/>
+      <NavBar/>
+    </header>
     <main>
       <section className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16">
         <div className="text-center max-w-md w-full space-y-4">
@@ -18,6 +26,10 @@ export default function Home() {
           }) }
         </div>
       </section>
+      
+      <Partners/>
     </main>
+    <Footer/>
+   </>
   )
 }
