@@ -104,7 +104,7 @@ export default function Home() {
         </div>
 
         <div className="max-w-sm w-full mx-auto mt-16">
-          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="w-full" />
+          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="aspect-video object-contain" />
         </div>
       </section>
       
