@@ -17,13 +17,13 @@ const partnersImages = [
 const Partners = () => {
 	return (
 		<section>
-			<div className="max-w-6xl mx-auto flex flex-col space-y-10 my-10 p-5">
+			<div className="max-w-6xl mx-auto flex flex-col space-y-10 my-10 p-5 container">
 				<h2 className="text-4xl font-sans font-bold text-center">Parceiros</h2>
 				<div className="flex flex-col lg:flex-row lg:flex-nowrap gap-y-20 lg:gap-10 items-center justify-evenly">
 						{ partnersImages.map((partner, index) => {
 							return (
 								<div className="max-w-xs w-full" key={index}>
-									<Image className="w-full" src={partner} alt={`partner ${index + 1}`} />
+									<Image className="aspect-video object-contain" src={partner} alt={`partner ${index + 1}`} />
 								</div>
 							)
 						}) }
