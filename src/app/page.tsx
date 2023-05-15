@@ -82,6 +82,9 @@ export default function Home() {
             )
           }) }
         </div>
+        <div className="flex justify-center mt-8 text-center">
+          <a className="font-bold text-sm uppercase text-white bg-primary px-8 py-4 rounded-full hover:brightness-75 max-md:px-16 max-md:py-4 transition-all" href="https://docs.google.com/document/d/1xbvXOPBA_TPvrO86MhzKidGD44GOkDlWbDctvycTPW0/edit" target="_blank" rel="noreferrer">Veja mais</a>
+        </div>
       </section>
 
       <section className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16">
