@@ -88,7 +88,7 @@ export default function Home() {
           }) }
         </div>
         <div className="flex justify-center mt-8 text-center">
-          <a className="font-bold text-sm uppercase text-white bg-primary px-8 py-4 rounded-full hover:brightness-75 max-md:px-16 max-md:py-4 transition-all" href="https://docs.google.com/document/d/1xbvXOPBA_TPvrO86MhzKidGD44GOkDlWbDctvycTPW0/edit" target="_blank" rel="noreferrer">Veja mais</a>
+          <a className="font-bold uppercase text-sm px-6 py-3 rounded-full transition-all duration-700 text-white bg-secondary hover:brightness-75" href="https://docs.google.com/document/d/1xbvXOPBA_TPvrO86MhzKidGD44GOkDlWbDctvycTPW0/edit" target="_blank" rel="noreferrer">Veja mais</a>
         </div>
       </section>
 
