@@ -35,7 +35,9 @@ export default function Home() {
           <div className="flex flex-col gap-4 text-justify">
             <p>O Hackathon Wansati é uma maratona de programação focada em desenvolver soluções tecnológicas para problemas relacionados à justiça de gênero e inclusão das mulheres em áreas de impacto. O evento convida mulheres entusiastas, desenvolvedoras de software, designers e profissionais de outras áreas a participarem de 48 horas de busca e criação de protótipos de soluções. Os melhores protótipos serão desenvolvidos em colaboração com parceiros, resultando em um produto final pronto para uso. A iniciativa é liderada por jovens moçambicanos que reconhecem o potencial da tecnologia para resolver problemas de forma simples e inclusiva, e desejam promover uma vida mais conectada e inclusiva para as mulheres, além de desafiar estereótipos sociais.</p>
 
-            <MoreInfo href="https://docs.google.com/document/d/1PPG3u8a_ViDs4ycP8osqE7KbBwmXGR4L/edit#"/>
+            <div className="mt-4">
+              <MoreInfo href="https://docs.google.com/document/d/1PPG3u8a_ViDs4ycP8osqE7KbBwmXGR4L/edit#"/>
+            </div>
 
             {/* <p>Este programa convida mulheres entusiastas, desenvolvedoras de software, designers e profissionais de outras áreas ligadas a temática, entre outras, para 48 horas de busca e criação de soluções para a sociedade na forma de protótipos, nos quais serão desenvolvidos os melhores, juntamente com os parceiros em sessões de acompanhamento ao longo de um período a determinar, em um produto final pronto para uso</p> */}
           </div>
