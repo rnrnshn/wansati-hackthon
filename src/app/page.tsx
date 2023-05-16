@@ -12,8 +12,8 @@ import Footer from './components/Footer';
 import CustomizableCardType from "@/app/components/CustomizableCard";
 
 import aboutImg from "../../public/assets/about.png"
-import mozDevzImg from "../../public/assets/MozDevzLogo.png"
 import img from "../../public/assets/WansatiIcon.png"
+import mozDevzImg from "../../public/assets/MozDevz logo.png"
 
 import { CalendarCheck, CheckCircle } from "phosphor-react";
 import { MoreInfo } from "./components/MoreInfo";
@@ -86,6 +86,9 @@ export default function Home() {
             )
           }) }
         </div>
+        <div className="flex justify-center mt-8 text-center">
+          <a className="font-bold text-sm uppercase text-white bg-primary px-8 py-4 rounded-full hover:brightness-75 max-md:px-16 max-md:py-4 transition-all" href="https://docs.google.com/document/d/1xbvXOPBA_TPvrO86MhzKidGD44GOkDlWbDctvycTPW0/edit" target="_blank" rel="noreferrer">Veja mais</a>
+        </div>
       </section>
 
       <section className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16">
@@ -107,8 +110,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold">Organizadores</h2>
         </div>
 
-        <div className="max-w-sm w-full mx-auto mt-16">
-          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="aspect-video object-contain" />
+        <div className="max-w-sm w-full mx-auto mt-16 flex flex-col justify-center items-center">
+          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="aspect-video object-contain w-60" />
         </div>
       </section>
       

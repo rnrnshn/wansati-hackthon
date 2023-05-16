@@ -19,7 +19,7 @@ const partnersImages = [
 const Partners = () => {
 	return (
 		<section>
-			<div className="max-w-6xl mx-auto flex flex-col space-y-10 my-10 p-5 container">
+			<div className="max-w-6xl mx-auto flex flex-col space-y-10 mb-16 p-5 container">
 				<h2 className="text-4xl font-sans font-bold text-center">Parceiros</h2>
 				<div className="flex flex-col lg:flex-row lg:flex-nowrap gap-y-20 lg:gap-10 items-center justify-evenly">
 						{ partnersImages.map((partner, index) => {
