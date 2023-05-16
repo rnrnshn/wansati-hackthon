@@ -13,8 +13,10 @@ import CustomizableCardType from "@/app/components/CustomizableCard";
 
 import aboutImg from "../../public/assets/about.png"
 import mozDevzImg from "../../public/assets/MozDevzLogo.png"
+import img from "../../public/assets/WansatiIcon.png"
 
 import { CalendarCheck, CheckCircle } from "phosphor-react";
+import { MoreInfo } from "./components/MoreInfo";
 
 export default function Home() {
   return (
@@ -32,15 +34,17 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col gap-4 text-justify">
-            <p>O Hackathon Wansati é uma iniciativa que visa desenvolver soluções focadas na mulher, olhando para a justiça de gênero, promovendo assim, a inclusão da mulher em áreas de grande impacto em sua vida, focando nos pontos acima citados com base no uso da tecnologia.</p>
+            <p>O Hackathon Wansati é uma maratona de programação focada em desenvolver soluções tecnológicas para problemas relacionados à justiça de gênero e inclusão das mulheres em áreas de impacto. O evento convida mulheres entusiastas, desenvolvedoras de software, designers e profissionais de outras áreas a participarem de 48 horas de busca e criação de protótipos de soluções. Os melhores protótipos serão desenvolvidos em colaboração com parceiros, resultando em um produto final pronto para uso. A iniciativa é liderada por jovens moçambicanos que reconhecem o potencial da tecnologia para resolver problemas de forma simples e inclusiva, e desejam promover uma vida mais conectada e inclusiva para as mulheres, além de desafiar estereótipos sociais.</p>
 
-            <p>Este programa convida mulheres entusiastas, desenvolvedoras de software, designers e profissionais de outras áreas ligadas a temática, entre outras, para 48 horas de busca e criação de soluções para a sociedade na forma de protótipos, nos quais serão desenvolvidos os melhores, juntamente com os parceiros em sessões de acompanhamento ao longo de um período a determinar, em um produto final pronto para uso</p>
+            <MoreInfo href="https://docs.google.com/document/d/1PPG3u8a_ViDs4ycP8osqE7KbBwmXGR4L/edit#"/>
+
+            {/* <p>Este programa convida mulheres entusiastas, desenvolvedoras de software, designers e profissionais de outras áreas ligadas a temática, entre outras, para 48 horas de busca e criação de soluções para a sociedade na forma de protótipos, nos quais serão desenvolvidos os melhores, juntamente com os parceiros em sessões de acompanhamento ao longo de um período a determinar, em um produto final pronto para uso</p> */}
           </div>
         </div>
 
         <div className="max-w-xs w-full">
           <Image 
-            src={ aboutImg } 
+            src={ img } 
             alt="Uma logo de que tem chavetas que indicam que se trata de programação" 
             className="w-full"
           />
@@ -50,7 +54,7 @@ export default function Home() {
       <section className="p-5 max-w-6xl mx-auto py-16">
         <div className="text-center max-w-md w-full mx-auto">
           <h2 className="text-lg text-primary mb-3">DESAFIOS</h2>
-          <h3 className="text-4xl font-bold">Desafios relacionados a várias áreas</h3>
+          <h3 className="text-4xl font-bold">Desafios relacionados a justiça de gênero</h3>
         </div>
 
         <div className="mt-16 flex flex-wrap gap-8 justify-center md:justify-between">

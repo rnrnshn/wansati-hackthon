@@ -102,29 +102,18 @@ const agenda: Agenda[] = [
 
 const challenges: CustomizableCardType[] = [
   {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+    title: "Casamentos prematuros",
+    description: "Desafiando tradições nocivas: erradicando os casamentos prematuros e promovendo a liberdade de escolha para meninas!"
   },
   {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+    title: "Violência baseada no gênero",
+    description: "Desvendando e combatendo a violência de gênero!  "
   },
   {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+    title: "Economias justas",
+    description: "Criando oportunidades equitativas e sustentáveis para todos!"
   },
-  {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
-  },
-  {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
-  },
-  {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
-  }
+
 ]
 
 export { Speakers, agenda, challenges };
