@@ -8,7 +8,7 @@ const CustomizableCard = ({ title, description, children }: CustomizableCardType
       </div>
       <div>
         <h4 className="font-bold text-2xl mb-4">{ title }</h4>
-        <p className="text-justify">{ description }</p>
+        <p className="">{ description }</p>
       </div>
     </div>
   )

@@ -1,17 +1,19 @@
 import Image from "next/image";
 
-import forumMulherLogo from "../../../public/partners/forum.png";
-import oXFamLogo from "../../../public/partners/oxfam.png";
-import undpLogo from "../../../public/partners/UNDP.png";
-import kabumDigitalLogo from "../../../public/partners/kabum.png";
+import forumMulherLogo from "../../../public/partners/ForumMulher.svg";
+import oXFamLogo from "../../../public/partners/OXFAM.png";
+import FSDLogo from "../../../public/partners/FSDMOC.svg";
+import kabumDigitalLogo from "../../../public/partners/Kambum.png";
+import standardBankLogo from "../../../public/partners/Standard.png";
 import maputoFrontendersLogo from "../../../public/partners/mf.png";
 
 const partnersImages = [
 	forumMulherLogo,
 	oXFamLogo,
-	undpLogo,
+	FSDLogo,
+	maputoFrontendersLogo,
 	kabumDigitalLogo,
-	maputoFrontendersLogo
+	standardBankLogo,
 ]
 
 const Partners = () => {
@@ -23,7 +25,7 @@ const Partners = () => {
 						{ partnersImages.map((partner, index) => {
 							return (
 								<div className="max-w-xs w-full" key={index}>
-									<Image className="aspect-video object-contain" src={partner} alt={`partner ${index + 1}`} />
+									<Image className="aspect-video object-contain w-full" src={partner} alt={`partner ${index + 1}`} />
 								</div>
 							)
 						}) }
