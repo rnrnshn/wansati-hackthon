@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "../../../public/assets/hero-image.svg";
+import HeroImage from "../../../public/assets/32954329_2075583172710852_1083557576618016768_n.jpg";
 
 const Hero = () => {
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
 
       <div className="w-full max-w-md order-1 md:order-2">
-        <Image src={HeroImage} alt="wansati" />
+        <Image className="rounded-md" src={HeroImage} alt="wansati" />
       </div>
     </section>
   );
