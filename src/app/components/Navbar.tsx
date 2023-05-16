@@ -7,7 +7,6 @@ import { TextAlignRight, X } from "phosphor-react";
 import NavITem from "./NavItem";
 
 import logo from "../../../public/assets/logo.png";
-import logoWhite from "../../../public/assets/logoWhite.png";
 
 const navItems = [
   {
@@ -59,8 +58,8 @@ const NavBar = () => {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
             <Image
-              src={scrollY > 200 || navbar ? logoWhite : logo}
-              width={200}
+              src={scrollY > 200 || navbar ? logo : logo}
+              width={150}
               alt="Wansati Hackathon"
             />
           </Link>
