@@ -11,9 +11,8 @@ import Footer from './components/Footer';
 
 import CustomizableCardType from "@/app/components/CustomizableCard";
 
-import aboutImg from "../../public/assets/about.png"
-import img from "../../public/assets/WansatiIcon.png"
-import mozDevzImg from "../../public/assets/MozDevz logo.png"
+import aboutImg from "../../public/assets/WansatiIcon.png"
+import mozDevzImg from "../../public/assets/MozdevzLogo.png"
 
 import { CalendarCheck, CheckCircle } from "phosphor-react";
 import { MoreInfo } from "./components/MoreInfo";
@@ -44,8 +43,8 @@ export default function Home() {
 
         <div className="max-w-xs w-full">
           <Image 
-            src={ img } 
-            alt="Uma logo de que tem chavetas que indicam que se trata de programação" 
+            src={ aboutImg } 
+            alt="Logo que representa o Wansati Hackthon" 
             className="w-full"
           />
         </div>

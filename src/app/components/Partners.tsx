@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import forumMulherLogo from "../../../public/partners/ForumMulher.svg";
-import oXFamLogo from "../../../public/partners/OXFAM.png";
+import oXFamLogo from "../../../public/partners/oxfam.png";
 import FSDLogo from "../../../public/partners/FSDMOC.svg";
 import kabumDigitalLogo from "../../../public/partners/Kambum.png";
 import standardBankLogo from "../../../public/partners/Standard.png";
