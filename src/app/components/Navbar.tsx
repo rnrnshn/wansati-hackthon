@@ -97,7 +97,7 @@ const NavBar = () => {
 
             <a
               href="#"
-              className={`font-bold uppercase text-sm px-6 py-2 rounded-full transition-all duration-700 text-white bg-secondary hover:brightness-75 `}
+              className={`font-bold uppercase text-sm px-6 py-3 rounded-full transition-all duration-700 text-white bg-secondary hover:brightness-75 `}
             >
               REGISTAR-SE
             </a>

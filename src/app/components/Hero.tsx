@@ -5,19 +5,22 @@ const Hero = () => {
   return (
     <section className="p-5 py-24 flex justify-between items-center max-w-6xl mx-auto gap-10 max-md:mt-14  max-md:flex-col">
       <div className="max-w-lg order-2 md:order-1">
-        <h1 className="text-6xl text-gray-headline font-bold pb-6 max-md:text-3xl max-md:text-center max-md:mb-6 max-md:mt-10">
+        <h1 className="text-6xl text-white font-bold pb-6 max-md:text-3xl max-md:text-center max-md:mb-6 max-md:mt-10">
           Wansati Hackathon
         </h1>
-        <p className="text-gray-paragraph text-xl pb-6 max-md:text-center max-md:mb-5">
+        <p className="text-white text-xl pb-6 max-md:text-center max-md:mb-5">
           Junte-se a nós com mais de 300 “hackers” de todo o país para 48 horas
           de criação, inovação e diversão.
         </p>
-        <p className="text-gray-paragraph text-2xl pb-8 max-md:text-center max-md:mb-5">26 - 27 de Maio de 2023</p>
+        <p className="text-white text-2xl pb-8 max-md:text-center max-md:mb-5">02 - 04 de Junho de 2023</p>
 
         <div className="flex max-md:justify-center max-md:mb-20">
-          <button className="font-bold text-sm uppercase text-white bg-primary px-8 py-4 rounded-full hover:brightness-75 max-md:px-16 max-md:py-4 transition-all">
-            Registar-se
-          </button>
+          <a
+            href="#"
+            className={`font-bold uppercase text-sm px-6 py-3 rounded-full transition-all duration-700 text-white bg-secondary hover:brightness-75 `}
+          >
+            REGISTAR-SE
+          </a>
         </div>
       </div>
 
