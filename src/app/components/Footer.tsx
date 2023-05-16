@@ -4,7 +4,9 @@ import {
 	FacebookLogo, 
 	InstagramLogo, 
 	LinkedinLogo, 
+	TelegramLogo, 
 	TwitchLogo, 
+	TwitterLogo, 
 	YoutubeLogo 
 } from "phosphor-react";
 
@@ -15,7 +17,7 @@ const Footer = () => {
 
 	return (
 		<footer className="bg-primary p-5">
-			<div className="max-w-6xl mx-auto w-full py-16 flex justify-between flex-wrap gap-10 text-white">
+			<div className="max-w-6xl mx-auto w-full py-10 flex justify-between flex-wrap gap-10 text-white">
 				<div className="space-y-5">
 					<div>
 						<h1 className="text-4xl font-sans font-bold ">Wansati Hackthon</h1>
@@ -26,11 +28,12 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="flex justify-center items-center gap-3 text-2xl">
-					<a href=""><FacebookLogo /></a>
-					<a href=""><InstagramLogo /></a>
-					<a href=""><LinkedinLogo /></a>
-					<a href=""><TwitchLogo /></a>
-					<a href=""><YoutubeLogo /></a>
+					<a href="https://www.facebook.com/mozdevz" target="_blank" rel="noreferrer"><FacebookLogo /></a>
+					<a href="https://instagram.com/mozdevz" target="_blank" rel="noreferrer"><InstagramLogo /></a>
+					<a href="https://www.linkedin.com/company/mozdevz/" target="_blank" rel="noreferrer"><LinkedinLogo /></a>
+					<a href="https://twitter.com/mozdevz" target="_blank" rel="noreferrer"><TwitterLogo /></a>
+					<a href="https://t.me/MozDevz" target="_blank" rel="noreferrer"><TelegramLogo /></a>
+					<a href="https://youtube.com/@mozdevz6592" target="_blank" rel="noreferrer"><YoutubeLogo /></a>
 				</div>
 			</div>
 		</footer>

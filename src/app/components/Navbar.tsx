@@ -7,7 +7,6 @@ import { TextAlignRight, X } from "phosphor-react";
 import NavITem from "./NavItem";
 
 import logo from "../../../public/assets/logo.png";
-import logoWhite from "../../../public/assets/logoWhite.png";
 
 const navItems = [
   {
@@ -49,23 +48,19 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`w-full max-md:px-10 transition-colors duration-700 fixed z-10 right-0 left-0 top-0 ${
-        scrollY > 200 || navbar
-          ? "bg-primary text-white "
-          : "text-primary bg-green-light"
-      }`}
+      className={`w-full px-5 transition-colors duration-700 fixed z-10 right-0 left-0 top-0 text-white bg-primary`}
     >
-      <div className="max-w-6xl justify-between items-center mx-auto md:items-center md:flex px-5">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
+      <div className="max-w-6xl justify-between items-center mx-auto lg:items-center lg:flex">
+        <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
           <Link href="/">
             <Image
-              src={scrollY > 200 || navbar ? logoWhite : logo}
-              width={200}
+              src={scrollY > 200 || navbar ? logo : logo}
+              width={150}
               alt="Wansati Hackathon"
             />
           </Link>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
               onClick={() => setNavbar(!navbar)}
@@ -75,7 +70,7 @@ const NavBar = () => {
               ) : (
                 <TextAlignRight
                   size={24}
-                  className={scrollY > 200 ? "text-white" : "text-primary"}
+                  className={"text-white"}
                 />
               ) }
             </button>
@@ -83,11 +78,11 @@ const NavBar = () => {
         </div>
 
         <div
-          className={` mt-20 md:block md:pb-0 md:mt-0 ${
-            navbar ? "p-12 md:p-0 block" : "hidden"
+          className={` mt-20 lg:block lg:pb-0 lg:mt-0 ${
+            navbar ? "p-12 lg:p-0 block" : "hidden"
           }`}
         >
-          <ul className="h-screen gap-12 md:h-auto items-center justify-center flex max-md:flex-col max-md:-mt-52">
+          <ul className="h-screen gap-12 lg:h-auto items-center justify-center flex max-lg:flex-col max-lg:-mt-52">
             { navItems.map((navItem) => {
               return (
                 <NavITem
@@ -100,15 +95,12 @@ const NavBar = () => {
               );
             }) }
 
-            <button
-              className={`font-bold uppercase text-sm border border-primary px-6 py-2 ml-28 rounded-full hover:bg-primary hover:text-white transition-colors duration-700 ${
-                scrollY > 200
-                  ? "border border-white ml-0 text-white hover:bg-white hover:text-primary"
-                  : "text-primary bg-green-light ml-0"
-              }`}
+            <a
+              href="#"
+              className={`font-bold uppercase text-sm px-6 py-3 rounded-full transition-all duration-700 text-white bg-secondary hover:brightness-75 `}
             >
               REGISTAR-SE
-            </button>
+            </a>
           </ul>
         </div>
       </div>

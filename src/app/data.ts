@@ -63,68 +63,39 @@ const Speakers: Speaker[] = [
 
 const agenda: Agenda[] = [
   {
-    title: "Abertura",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
-    date: "26/05",
-    time: "09:00h"
+    title: " Introdução",
+    description: "Check-in, introdução Wansati Hackathon, 3 master classes inspiradoras e formação de grupos participantes.",
+    date: "2 de Junho || Sexta-feira",
+    time: "18:00h - 19:40h"
   },
   {
-    title: "Abertura",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
-    date: "26/05",
-    time: "09:00h"
+    title: "Desenvolvimento das Soluções",
+    description: "Check-in e registo das equipas, desafios do Wansati Hackathon, sessões de trabalho em grupos, almoço, master classes, sessões de trabalho em grupos, lanche da tarde e término dos trabalhos.",
+    date: "3 de Junho || Sábado",
+    time: "08:00h - 20:00h"
   },
   {
-    title: "Abertura",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
-    date: "26/05",
-    time: "09:00h"
-  },
-  {
-    title: "Abertura",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
-    date: "26/05",
-    time: "09:00h"
-  },
-  {
-    title: "Abertura",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
-    date: "26/05",
-    time: "09:00h"
-  },
-  {
-    title: "Abertura",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!",
-    date: "26/05",
-    time: "09:00h"
-  },
+    title: "Apresentações e Premiação",
+    description: "Chegada dos participantes, pitch perfeito, sprint final, sessão em grupo, lanche, apresentação ao júri, anúncio dos vencedores, encerramento e networking.",
+    date: "4 de Junho || Domingo",
+    time: "08:00h - 14:00h"
+  }
 ]
 
 const challenges: CustomizableCardType[] = [
   {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+    title: "Casamentos prematuros",
+    description: "Desafiando tradições nocivas: erradicando os casamentos prematuros e promovendo a liberdade de escolha para meninas!"
   },
   {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+    title: "Violência baseada no gênero",
+    description: "Desvendando e combatendo a violência de gênero!  "
   },
   {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
+    title: "Economias justas",
+    description: "Criando oportunidades equitativas e sustentáveis para todos!"
   },
-  {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
-  },
-  {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
-  },
-  {
-    title: "Educação",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quae velit nobis at blanditiis hic reiciendis!"
-  }
+
 ]
 
 export { Speakers, agenda, challenges };
