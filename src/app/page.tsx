@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import CustomizableCardType from "@/app/components/CustomizableCard";
 
 import aboutImg from "../../public/assets/about.png"
-import mozDevzImg from "../../public/assets/MozDevzLogo.png"
+import mozDevzImg from "../../public/assets/MozDevz logo.png"
 
 import { CalendarCheck, CheckCircle } from "phosphor-react";
 
@@ -103,8 +103,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold">Organizadores</h2>
         </div>
 
-        <div className="max-w-sm w-full mx-auto mt-16">
-          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="aspect-video object-contain" />
+        <div className="max-w-sm w-full mx-auto mt-16 flex flex-col justify-center items-center">
+          <Image src={ mozDevzImg } alt="Logo da MozDevz" className="aspect-video object-contain w-60" />
         </div>
       </section>
       
