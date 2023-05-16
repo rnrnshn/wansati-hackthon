@@ -20,9 +20,9 @@ import { MoreInfo } from "./components/MoreInfo";
 export default function Home() {
   return (
    <>
-    <header className="bg-[#DCE9E2] w-full ">
-      <Hero/>
+    <header className="bg-primary w-full ">
       <NavBar/>
+      <Hero/>
     </header>
     <main>
       <section className="p-5 max-w-6xl mx-auto flex flex-wrap justify-center lg:justify-between items-center gap-10 py-16">
@@ -76,7 +76,7 @@ export default function Home() {
           { agenda.map((item, index) => {
             return (
               <CustomizableCardType key={index} title={item.title} description={item.description}>
-                <CalendarCheck className="text-secondary" size={48} weight="bold" />
+                <CalendarCheck className="text-tertiary" size={48} weight="bold" />
                 <div className="flex flex-col gap-1">
                   <span className="font-bold">{ item.date }</span>
                   <span>{ item.time }</span>
