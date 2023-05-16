@@ -2,7 +2,19 @@ import type { StaticImageData } from "next/image";
 import { ReactNode } from "react";
 
 // Speakers
-import IgorImg from "../../public/speakers/igor.webp";
+// import IgorImg from "../../public/speakers/igor.webp";
+import ShelbyHennek from "../../public/speakers/25.jpg"
+import CharleyPetrovski from "../../public/speakers/46.jpg"
+import SophiaPelo from "../../public/speakers/66.jpg"
+import RobertScibona from "../../public/speakers/11.jpg"
+import BrandeStraubinger from "../../public/speakers/42.jpg"
+import LouannCamelio from "../../public/speakers/51.jpg"
+// const ShelbyHennek = "https://xsgames.co/randomusers/assets/avatars/female/25.jpg";
+// const CharleyPetrovski = "https://xsgames.co/randomusers/assets/avatars/male/46.jpg";
+// const SophiaPelo = "https://xsgames.co/randomusers/assets/avatars/female/66.jpg";
+// const RobertScibona = "https://xsgames.co/randomusers/assets/avatars/male/11.jpg";
+// const BrandeStraubinger = "https://xsgames.co/randomusers/assets/avatars/female/42.jpg";
+// const LouannCamelio = "https://xsgames.co/randomusers/assets/avatars/female/51.jpg";
 
 export interface Speaker {
 	img: StaticImageData,
@@ -24,40 +36,40 @@ export interface Agenda extends CustomizableCardType {
 
 const Speakers: Speaker[] = [
   {
-    img: IgorImg,
+    img: ShelbyHennek,
     alt: "",
-    name: "Igor Sambo",
-    role: "Presidente @MozDevz" 
+    name: "Shelby Hennek",
+    role: "Software Developer" 
   },
   {
-    img: IgorImg,
+    img: CharleyPetrovski,
     alt: "",
-    name: "Igor Sambo",
-    role: "Presidente @MozDevz" 
+    name: "Charley Petrovski",
+    role: "Data Engineer" 
   },
   {
-    img: IgorImg,
+    img: SophiaPelo,
     alt: "",
-    name: "Igor Sambo",
-    role: "Presidente @MozDevz" 
+    name: "Sophia Pelo",
+    role: "Information Security Analyst" 
   },
   {
-    img: IgorImg,
+    img: RobertScibona,
     alt: "",
-    name: "Igor Sambo",
-    role: "Presidente @MozDevz" 
+    name: "Robert Scibona",
+    role: "Artificial Intelligence Specialist" 
   },
   {
-    img: IgorImg,
+    img: BrandeStraubinger,
     alt: "",
-    name: "Igor Sambo",
-    role: "Presidente @MozDevz" 
+    name: "Brande Straubinger",
+    role: "Data Ccientist" 
   },
   {
-    img: IgorImg,
+    img: LouannCamelio,
     alt: "",
-    name: "Igor Sambo",
-    role: "Presidente @MozDevz" 
+    name: "Louann Camelio",
+    role: "Cybersecurity Specialist" 
   }
 ];
 
