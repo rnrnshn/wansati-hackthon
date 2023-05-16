@@ -62,7 +62,7 @@ export default function Home() {
           { challenges.map((item, index) => {
             return (
               <CustomizableCardType key={index} title={item.title} description={item.description}>
-                <CheckCircle className="text-tertiary" size={36} weight="fill" />
+                <CheckCircle className="text-secondary" size={36} weight="fill" />
               </CustomizableCardType>
             )
           }) }
@@ -78,7 +78,7 @@ export default function Home() {
           { agenda.map((item, index) => {
             return (
               <CustomizableCardType key={index} title={item.title} description={item.description}>
-                <CalendarCheck className="text-tertiary" size={48} weight="bold" />
+                <CalendarCheck className="text-secondary" size={48} weight="bold" />
                 <div className="flex flex-col gap-1">
                   <span className="font-bold">{ item.date }</span>
                   <span>{ item.time }</span>
