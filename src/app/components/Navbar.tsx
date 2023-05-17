@@ -43,7 +43,7 @@ const NavBar = () => {
   }, [])
 
   function handleClickNavItem() {
-    setNavbar(!navbar);
+    setNavbar(false);
   }
 
   return (
