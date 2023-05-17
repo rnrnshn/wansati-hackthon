@@ -98,7 +98,7 @@ export default function Home() {
       <section id="speakers" className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16 scroll-mt-20">
         <div className="text-center max-w-md w-full space-y-4">
           <h1 className="text-lg text-secondary mb-3 font-medium">ORADORES</h1>
-          <p className="text-4xl font-bold">Os oradores responsáveis por dirigir esse evento</p>
+          <p className="text-4xl font-bold">Os oradores responsáveis por dirigir as master classes</p>
         </div>
         <div className="flex justify-center gap-10 flex-wrap">
           { Speakers.map((SpeakerData, index) => {
