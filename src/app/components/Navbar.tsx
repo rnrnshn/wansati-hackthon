@@ -11,7 +11,7 @@ import logo from "../../../public/assets/logo.png";
 const navItems = [
   {
     title: "Início",
-    href: "/",
+    href: "/#header",
   },
   {
     title: "Sobre",
