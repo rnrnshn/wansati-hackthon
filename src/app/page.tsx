@@ -20,15 +20,18 @@ import { MoreInfo } from "./components/MoreInfo";
 export default function Home() {
   return (
    <>
-    <header className="bg-primary w-full ">
-      <NavBar/>
-      <Hero/>
+    <header className="bg-hero bg-cover bg-center bg-fixed w-full relative">
+      <div className="relative z-20">
+        <NavBar/>
+        <Hero/>
+      </div>
+      <div className="absolute z-10 bg-black/70 w-full h-full top-0 left-0"></div>
     </header>
     <main>
       <section className="p-5 max-w-6xl mx-auto flex flex-wrap justify-center lg:justify-between items-center gap-10 py-16">
         <div className="max-w-lg w-full">
           <div className="w-full mb-4">
-            <h2 className="text-lg text-primary mb-3">SOBRE A HACKTHON</h2>
+            <h2 className="text-lg text-secondary mb-3 font-medium">SOBRE A HACKTHON</h2>
             <h3 className="text-4xl font-bold">O que é Wansati Hackthon</h3>
           </div>
 
@@ -54,7 +57,7 @@ export default function Home() {
 
       <section className="p-5 max-w-6xl mx-auto py-16">
         <div className="text-center max-w-md w-full mx-auto">
-          <h2 className="text-lg text-primary mb-3">DESAFIOS</h2>
+          <h2 className="text-lg text-secondary mb-3 font-medium">DESAFIOS</h2>
           <h3 className="text-4xl font-bold">Desafios relacionados a justiça de gênero</h3>
         </div>
 
@@ -92,7 +95,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16">
+      {/* <section className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16">
         <div className="text-center max-w-md w-full space-y-4">
           <h1 className="text-lg text-primary">ORADORES</h1>
           <p className="text-4xl font-bold">Os oradores responsáveis por dirigir esse evento</p>
@@ -104,7 +107,7 @@ export default function Home() {
             )
           }) }
         </div>
-      </section>
+      </section> */}
 
       <section className="p-5 max-w-6xl mx-auto py-16">
         <div className="text-center max-w-md w-full mx-auto">

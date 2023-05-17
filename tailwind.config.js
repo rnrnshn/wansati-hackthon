@@ -18,7 +18,9 @@ module.exports = {
         "beige": "#FFFAF1",
         "green-light": "#DCE9E2",
         "green-light-02": "#F7F9F9"
-
+      },
+      backgroundImage: {
+        "hero": "url(/assets/melanie.jpg)"
       }
     },
   },
