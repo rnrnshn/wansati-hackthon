@@ -9,9 +9,9 @@ interface NavItemProps {
 const NavItem = ({ title, href, onClickNavItem, scrollY }: NavItemProps) => {
   return (
     <li className={`text-lg md:text-base relative text-ehite group text-white`}>
-      <Link href={ href } onClick={ onClickNavItem }>
+      <a href={ href } onClick={ onClickNavItem }>
         { title }
-      </Link>
+      </a>
       <div className={`absolute w-0 group-hover:w-full h-1 rounded transition-all bg-white`}></div>
     </li>
   )

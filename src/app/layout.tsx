@@ -6,7 +6,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-pt">
+    <html lang="pt-pt" className="scroll-smooth">
       <head />
       <body>{children}</body>
     </html>
