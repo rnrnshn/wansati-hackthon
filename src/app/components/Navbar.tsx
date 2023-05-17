@@ -48,13 +48,13 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`w-full px-5 transition-colors duration-700 fixed z-10 right-0 left-0 top-0 text-white bg-primary`}
+      className={`w-full px-5 transition-colors duration-700 fixed z-10 right-0 left-0 top-0 text-white ${ scrollY > 200 || navbar ? "bg-primary" : "bg-transparent" }`}
     >
       <div className="max-w-6xl justify-between items-center mx-auto lg:items-center lg:flex">
-        <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
+        <div className="flex items-center justify-between py-3 lg:block">
           <Link href="/">
             <Image
-              src={scrollY > 200 || navbar ? logo : logo}
+              src={logo}
               width={150}
               alt="Wansati Hackathon"
             />
@@ -95,12 +95,13 @@ const NavBar = () => {
               );
             }) }
 
-            <a
-              href="#"
+            <Link
+              target="_blank"
+              href="https://bzi34dca96i.typeform.com/to/NUZ0udJj"
               className={`font-bold uppercase text-sm px-6 py-3 rounded-full transition-all duration-700 text-white bg-secondary hover:brightness-75 `}
             >
               REGISTAR-SE
-            </a>
+            </Link>
           </ul>
         </div>
       </div>
