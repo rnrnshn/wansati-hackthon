@@ -95,19 +95,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16">
+      <section id="speakers" className="max-w-6xl mx-auto w-full flex flex-col justify-center items-center space-y-16 scroll-mt-20">
         <div className="text-center max-w-md w-full space-y-4">
-          <h1 className="text-lg text-primary">ORADORES</h1>
+          <h1 className="text-lg text-secondary mb-3 font-medium">ORADORES</h1>
           <p className="text-4xl font-bold">Os oradores responsáveis por dirigir esse evento</p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="flex justify-center gap-10 flex-wrap">
           { Speakers.map((SpeakerData, index) => {
             return (
               <Speaker key={index} {...SpeakerData} />
             )
           }) }
         </div>
-      </section> */}
+      </section>
 
       <section id="organizers" className="p-5 max-w-6xl mx-auto py-16 scroll-mt-10">
         <div className="text-center max-w-md w-full mx-auto">

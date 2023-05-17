@@ -3,24 +3,13 @@ import { ReactNode } from "react";
 
 // Speakers
 // import IgorImg from "../../public/speakers/igor.webp";
-import ShelbyHennek from "../../public/speakers/25.jpg"
-import CharleyPetrovski from "../../public/speakers/46.jpg"
-import SophiaPelo from "../../public/speakers/66.jpg"
-import RobertScibona from "../../public/speakers/11.jpg"
-import BrandeStraubinger from "../../public/speakers/42.jpg"
-import LouannCamelio from "../../public/speakers/51.jpg"
-// const ShelbyHennek = "https://xsgames.co/randomusers/assets/avatars/female/25.jpg";
-// const CharleyPetrovski = "https://xsgames.co/randomusers/assets/avatars/male/46.jpg";
-// const SophiaPelo = "https://xsgames.co/randomusers/assets/avatars/female/66.jpg";
-// const RobertScibona = "https://xsgames.co/randomusers/assets/avatars/male/11.jpg";
-// const BrandeStraubinger = "https://xsgames.co/randomusers/assets/avatars/female/42.jpg";
-// const LouannCamelio = "https://xsgames.co/randomusers/assets/avatars/female/51.jpg";
-
+import CarlosMondle from "../../public/speakers/carlos.jpeg"
+import KatiaAgostinho from "../../public/speakers/katia.jpeg"
 export interface Speaker {
 	img: StaticImageData,
 	alt: string,
 	name: string,
-	role: string
+  role: string
 };
 
 export interface CustomizableCardType {
@@ -36,40 +25,16 @@ export interface Agenda extends CustomizableCardType {
 
 const Speakers: Speaker[] = [
   {
-    img: ShelbyHennek,
-    alt: "",
-    name: "Shelby Hennek",
-    role: "Software Developer" 
+    img: CarlosMondle,
+    alt: "Carlos Mondle",
+    name: "Carlos Mondle",
+    role: "Digital Financial Service Manager @FSDMoç" 
   },
   {
-    img: CharleyPetrovski,
-    alt: "",
-    name: "Charley Petrovski",
-    role: "Data Engineer" 
-  },
-  {
-    img: SophiaPelo,
-    alt: "",
-    name: "Sophia Pelo",
-    role: "Information Security Analyst" 
-  },
-  {
-    img: RobertScibona,
-    alt: "",
-    name: "Robert Scibona",
-    role: "Artificial Intelligence Specialist" 
-  },
-  {
-    img: BrandeStraubinger,
-    alt: "",
-    name: "Brande Straubinger",
-    role: "Data Ccientist" 
-  },
-  {
-    img: LouannCamelio,
-    alt: "",
-    name: "Louann Camelio",
-    role: "Cybersecurity Specialist" 
+    img: KatiaAgostinho,
+    alt: "Kátia Agostinho",
+    name: "Kátia Agostinho",
+    role: "Investment Analyst @FSDMoç" 
   }
 ];
 
