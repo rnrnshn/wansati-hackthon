@@ -4,9 +4,7 @@ import forumMulherLogo from "../../../public/partners/ForumMulher.svg";
 import oXFamLogo from "../../../public/partners/oxfam.png";
 import FSDLogo from "../../../public/partners/FSDMOC.svg";
 import kabumDigitalLogo from "../../../public/partners/Kambum.png";
-//import standardBankLogo from "../../../public/partners/Standard.png";
 import maputoFrontendersLogo from "../../../public/partners/mf.png";
-import orangeCornersLogo from "../../../public/partners/orangeCorners.png";
 
 const partnersImages = [
 	forumMulherLogo,
@@ -17,7 +15,6 @@ const helpersImages = [
 	oXFamLogo,
 	maputoFrontendersLogo,
 	kabumDigitalLogo,
-	orangeCornersLogo
 ]
 
 const Partners = () => {
