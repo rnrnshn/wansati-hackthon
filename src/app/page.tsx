@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="p-5 max-w-6xl mx-auto py-16 scroll-mt-10">
+      <section className="p-5 max-w-6xl mx-auto py-16 scroll-mt-10 hidden">
         <div className="text-center max-w-md w-full mx-auto">
           <h2 className="text-4xl font-bold">Agenda</h2>
         </div>

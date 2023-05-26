@@ -13,7 +13,7 @@ const Hero = () => {
           Junte-se a nós com mais de 50 “hackers” de todo o país para 48 horas
           de criação, inovação e diversão.
         </p>
-        <p className="text-white text-2xl pb-8 max-md:text-center max-md:mb-5">02 - 04 de Junho de 2023</p>
+        <p className="text-white text-2xl pb-8 max-md:text-center max-md:mb-5">Data por anunciar</p>
 
         <div className="flex max-md:justify-center max-md:mb-20">
           <Link
