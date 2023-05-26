@@ -5,6 +5,8 @@ import oXFamLogo from "../../../public/partners/oxfam.png";
 import FSDLogo from "../../../public/partners/FSDMOC.svg";
 import kabumDigitalLogo from "../../../public/partners/Kambum.png";
 import maputoFrontendersLogo from "../../../public/partners/mf.png";
+import itCoreLogo from "../../../public/partners/itCore.png";
+import vodacomLogo from "../../../public/partners/vodacom.png";
 
 const partnersImages = [
 	forumMulherLogo,
@@ -13,8 +15,10 @@ const partnersImages = [
 
 const helpersImages = [
 	oXFamLogo,
-	maputoFrontendersLogo,
+	vodacomLogo,
+	itCoreLogo,
 	kabumDigitalLogo,
+	maputoFrontendersLogo,
 ]
 
 const Partners = () => {
@@ -35,7 +39,7 @@ const Partners = () => {
 
 			<div className="max-w-6xl mx-auto flex flex-col space-y-10 mb-16 p-5 container">
 				<h2 className="text-4xl font-sans font-bold text-center">Apoio</h2>
-				<div className="flex flex-col lg:flex-row lg:flex-nowrap gap-y-20 lg:gap-10 items-center justify-evenly">
+				<div className="flex flex-col lg:flex-row flex-wrap gap-y-20 lg:gap-10 items-center justify-evenly">
 						{ helpersImages.map((helper, index) => {
 							return (
 								<div className="max-w-[200px] w-full" key={index}>
