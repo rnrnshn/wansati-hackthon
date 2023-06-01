@@ -7,6 +7,7 @@ import kabumDigitalLogo from "../../../public/partners/Kambum.png";
 import maputoFrontendersLogo from "../../../public/partners/mf.png";
 import itCoreLogo from "../../../public/partners/itCore.png";
 import vodacomLogo from "../../../public/partners/vodacom.png";
+import startandBankLogo from "../../../public/partners/startandBank.png";
 
 const partnersImages = [
 	forumMulherLogo,
@@ -15,10 +16,11 @@ const partnersImages = [
 
 const helpersImages = [
 	oXFamLogo,
-	vodacomLogo,
-	itCoreLogo,
+	startandBankLogo,
 	kabumDigitalLogo,
 	maputoFrontendersLogo,
+	vodacomLogo,
+	itCoreLogo,
 ]
 
 const Partners = () => {
